@@ -1,0 +1,54 @@
+.whole-card {
+  width: 451px;
+  height: 279px;
+  padding-left: 15px;
+}
+.img-card {
+  width: 183px;
+  height: 281px;
+  float: left;
+}
+.info-in-card {
+  padding-left: 15px;
+  float: left;
+  box-shadow: rgba(197, 192, 192, 0.32) 3px 2px 5px;
+}
+p {
+  width: 228px;
+  height: 129px;
+
+  color: black;
+  font-family: "Inter", serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  margin-top: 10px;
+}
+h5 {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  font-size: 20px;
+  width: 132px;
+  height: 28px;
+  color: black;
+  margin: 10px 0 0 0;
+}
+.data {
+  font-family: "Inter", serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #827e7e;
+  margin: 0;
+}
+button {
+  margin: 10px 10px 0 0;
+  color: #000000a6;
+  border: rgba(197, 192, 192, 0.32) 2px solid;
+  border-radius: 3px;
+  background-color: #ffff;
+}

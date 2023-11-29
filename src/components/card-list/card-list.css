@@ -1,0 +1,16 @@
+.rectangle {
+  width: 1010px;
+  height: 1147px;
+  left: 215px;
+  color: #ffff;
+  border: yellowgreen solid 4px;
+  margin: auto;
+}
+.list-of-cards {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: start;
+  list-style-type: none;
+}
