@@ -3,14 +3,13 @@
   height: 1147px;
   left: 215px;
   color: #ffff;
-  border: yellowgreen solid 4px;
   margin: auto;
 }
 .list-of-cards {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: start;
+  align-items: flex-start;
   list-style-type: none;
 }
