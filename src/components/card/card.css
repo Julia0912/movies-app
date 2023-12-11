@@ -12,25 +12,15 @@
   float: left;
 }
 .info-in-card {
+  margin: 0 0 0 -10px;
   height: 279px;
   padding-left: 15px;
   float: left;
   box-shadow: rgba(197, 192, 192, 0.32) 3px 2px 5px;
+  position: relative;
 }
-h5 {
-  font-family: "Inter", serif;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: left;
-  font-size: 20px;
-  /*width: 215px;*/
-  /*height: 28px;*/
-  color: black;
-  margin: 10px 15px 0 0;
-}
+
 .data {
-  /*position: relative;*/
-  /*top: 15px;*/
   font-family: "Inter", serif;
   font-size: 12px;
   font-weight: 400;
@@ -40,8 +30,6 @@ h5 {
   margin: 0;
 }
 button {
-  /*position: relative;*/
-  /*top: 15px;*/
   margin: 10px 10px 0 0;
   color: #000000a6;
   border: rgba(197, 192, 192, 0.32) 2px solid;
@@ -60,4 +48,50 @@ p {
   line-height: 22px;
   text-align: left;
   margin: 10px 10px 0 0;
+}
+
+.header {
+  padding-top: 10px;
+  padding-right: 9px;
+  position: relative;
+}
+.title {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  width: 190px;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: #e9d100 2px solid;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vote_average {
+  font-family: Inter, serif;
+  font-size: 12px;
+  width: 15px;
+  height: 15px;
+  color: #000;
+  text-align: center;
+}
+.rating {
+  width: 237px;
+  height: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: absolute;
+  top: 237px;
+}
+.ant-rate-star {
+  width: 15px;
+  height: 10px;
 }
