@@ -13,3 +13,7 @@
   align-items: flex-start;
   list-style-type: none;
 }
+.pagination {
+  display: flex;
+  justify-content: center;
+}

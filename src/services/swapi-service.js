@@ -8,8 +8,8 @@ const options = {
 };
 
 export default class SwapiService {
-  async getResourse(movieName = "terminator") {
-    const url = `https://api.themoviedb.org/3/search/movie?query=${movieName}&include_adult=false&language=en-US&page=1`;
+  async getResourse(movieName = "terminator", page = "1") {
+    const url = `https://api.themoviedb.org/3/search/movie?query=${movieName}&include_adult=false&language=en-US&page=${page}`;
     console.log(url);
     const res = await fetch(url, options);
     if (!res.ok) {
@@ -18,10 +18,10 @@ export default class SwapiService {
     return await res.json();
   }
 
-  async getResults(movieName) {
-    const res = await this.getResourse(movieName);
-
-    return res.results;
+  async getResults(movieName, page) {
+    const res = await this.getResourse(movieName, page);
+    // console.log(res);
+    return res;
   }
 
   getMovie(id) {
